@@ -3,6 +3,11 @@ module.exports = {
   content: ["./src/**/*.html"],
   theme: {
     extend: {
+      fontFamily: {
+        pre: ['"Pretendard Variable", Pretendard, sans-serif'],
+        suit: ["SUIT Variable", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      },
       boxShadow: {
         "shadow-my": "inset 0 0 10px red",
       },
