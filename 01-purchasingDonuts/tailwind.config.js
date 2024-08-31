@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        "shadow-my": "inset 0 0 10px red",
+      },
+    },
   },
   plugins: [],
 };
