@@ -26,6 +26,9 @@ module.exports = {
         none: 0,
         "": 50,
       },
+      padding: {
+        "article-padding": "36px 40px 40px",
+      },
     },
   },
   plugins: [],

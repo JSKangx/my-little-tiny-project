@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .description {
+    @apply space-y-4;
+  }
+  .description .desc-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .description .desc-p {
+    font-size: 14px;
+    letter-spacing: 5%;
+  }
+}

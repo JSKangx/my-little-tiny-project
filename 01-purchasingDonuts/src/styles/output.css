@@ -554,9 +554,29 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-\[33px\] {
+  margin-bottom: 33px;
 }
 
 .mt-5 {
@@ -581,6 +601,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.p-article-padding {
+  padding: 36px 40px 40px;
+}
+
 .font-inter {
   font-family: Inter, sans-serif;
 }
@@ -589,4 +613,20 @@ video {
   --tw-shadow: inset 0 0 10px red;
   --tw-shadow-colored: inset 0 0 10px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.description > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.description .desc-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.description .desc-p {
+  font-size: 14px;
+  letter-spacing: 5%;
 }
