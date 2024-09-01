@@ -601,8 +601,17 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-primary-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 216 223 / var(--tw-bg-opacity));
+}
+
 .p-article-padding {
   padding: 36px 40px 40px;
+}
+
+.pt-\[436px\] {
+  padding-top: 436px;
 }
 
 .font-inter {
@@ -629,4 +638,9 @@ video {
 .description .desc-p {
   font-size: 14px;
   letter-spacing: 5%;
+}
+
+.footer {
+  display: flex;
+  gap: 26px;
 }
