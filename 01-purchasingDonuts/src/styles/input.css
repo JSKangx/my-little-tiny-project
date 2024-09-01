@@ -6,14 +6,21 @@
   .description {
     @apply space-y-4;
   }
+
   .description .desc-title {
     font-size: 18px;
     font-weight: 500;
   }
+
   .description .desc-p {
-    font-size: 14px;
-    letter-spacing: 5%;
+    color: rgb(0 0 0 / 0.6);
   }
+
+  .q-btn {
+    width: 45px;
+    height: 45px;
+  }
+
   .footer {
     display: flex;
     gap: 26px;
