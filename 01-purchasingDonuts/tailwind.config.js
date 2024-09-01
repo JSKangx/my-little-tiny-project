@@ -10,7 +10,7 @@ module.exports = {
       },
       boxShadow: {
         "shadow-my": "inset 0 0 10px red",
-        "heart-shadow": "0 4px 40px 0 rgba(0, 0, 0, 0.1)",
+        "btn-shadow": "0 4px 40px 0 rgba(0, 0, 0, 0.1)",
       },
       colors: {
         primary: {
