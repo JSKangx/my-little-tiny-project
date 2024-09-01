@@ -554,20 +554,8 @@ video {
   --tw-contain-style:  ;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .mx-auto {
@@ -583,12 +571,43 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-\[361px\] {
+  margin-bottom: 361px;
+}
+
+.-mt-\[47px\] {
+  margin-top: -47px;
+}
+
 .h-screen {
   height: 100vh;
 }
 
+.h-\[408px\] {
+  height: 408px;
+}
+
+.h-\[800px\] {
+  height: 800px;
+}
+
 .w-\[428px\] {
   width: 428px;
+}
+
+.rounded-t- {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.rounded-t-\[40px\] {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.bg-primary-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 216 223 / var(--tw-bg-opacity));
 }
 
 .bg-slate-900 {
@@ -601,17 +620,21 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-primary-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 216 223 / var(--tw-bg-opacity));
-}
-
 .p-article-padding {
   padding: 36px 40px 40px;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pt-\[436px\] {
   padding-top: 436px;
+}
+
+.pt-\[45px\] {
+  padding-top: 45px;
 }
 
 .font-inter {
