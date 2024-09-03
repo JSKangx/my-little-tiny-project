@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .description {
+    @apply space-y-4;
+  }
+
+  .description .desc-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .description .desc-p {
+    color: rgb(0 0 0 / 0.6);
+  }
+
+  .q-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 15px;
+  }
+
+  .footer {
+    display: flex;
+    gap: 26px;
+  }
+}

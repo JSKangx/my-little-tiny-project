@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../styles/output.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body class="h-screen bg-slate-900">
+    <article class="w-[428px] mt-5 mx-auto pt-[45px] bg-primary-100">
+      <nav class="px-8">
+        <svg
+          tabindex="0"
+          width="30"
+          height="30"
+          viewBox="0 0 30 30"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.775 3.73749C20.6299 3.59198 20.4574 3.47653 20.2676 3.39776C20.0778 3.31899 19.8743 3.27844 19.6688 3.27844C19.4632 3.27844 19.2597 3.31899 19.0699 3.39776C18.8801 3.47653 18.7076 3.59198 18.5625 3.73749L8.175 14.125C8.05912 14.2406 7.96719 14.378 7.90446 14.5292C7.84174 14.6804 7.80945 14.8425 7.80945 15.0062C7.80945 15.1699 7.84174 15.332 7.90446 15.4833C7.96719 15.6345 8.05912 15.7718 8.175 15.8875L18.5625 26.275C19.175 26.8875 20.1625 26.8875 20.775 26.275C21.3875 25.6625 21.3875 24.675 20.775 24.0625L11.725 15L20.7875 5.93749C21.3875 5.33749 21.3875 4.33749 20.775 3.73749Z"
+            fill="#FF7074"
+          />
+        </svg>
+      </nav>
+      <img
+        class="-mt-[47px] h-[408px] mx-auto"
+        src="../img/strawberry-wheel.png"
+        alt=""
+      />
+      <div
+        class="modal relative bg-white font-inter p-article-padding rounded-t-[40px]"
+      >
+        <h1
+          class="mb-[33px] text-primary-300 font-semibold text-[30px]"
+          tabindex="0"
+        >
+          Strawberry Wheel
+        </h1>
+        <button
+          class="absolute bg-white size-[45px] right-[33px] -top-6 rounded-2xl shadow-btn-shadow"
+        >
+          <img class="mt-[6px] ml-[7px]" src="/src/img/icon/heart.svg" alt="" />
+        </button>
+        <div class="description mb-[26px]" tabindex="0">
+          <span class="desc-title">About Gonut</span>
+          <p class="desc-p text-[14px] tracking-wider leading-tight">
+            These soft, cake-like Strawberry Frosted Donuts feature fresh
+            strawberries and a delicious fresh strawberry glaze frosting. Pretty
+            enough for company and the perfect treat to satisfy your sweet
+            tooth.
+          </p>
+        </div>
+        <div class="description mb-[47px]">
+          <span class="desc-title" tabindex="0">Quantity</span>
+          <div class="controls gap-5 flex items-center">
+            <button
+              class="q-btn shadow-btn-shadow text-[32px] font-medium flex justify-center items-center"
+            >
+              -
+            </button>
+            <button
+              class="q-btn shadow-btn-shadow text-[22px] font-medium flex justify-center items-center"
+            >
+              1
+            </button>
+            <button
+              class="q-btn bg-black text-white shadow-btn-shadow text-[32px] font-medium flex justify-center items-center"
+            >
+              +
+            </button>
+          </div>
+        </div>
+        <div class="footer flex items-center">
+          <span class="text-[30px] font-semibold" tabindex="0">£16</span>
+          <div>
+            <button
+              class="bg-primary-300 text-white py-[22px] px-[76px] text-[20px] font-semibold rounded-[50px]"
+            >
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
