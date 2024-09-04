@@ -7,7 +7,7 @@ module.exports = {
         pre: ['"Pretendard Variable", Pretendard, sans-serif'],
         suit: ["SUIT Variable", "sans-serif"],
         inter: ["Inter", "sans-serif"],
-        karla: ["Karla", "sans-serif"]
+        karla: ["Karla", "sans-serif"],
       },
       boxShadow: {
         "shadow-my": "inset 0 0 10px red",
@@ -23,6 +23,9 @@ module.exports = {
           100: "#585858",
           200: "#000000",
         },
+        grayscale: {
+          100: "rgba(0, 0, 0, 0.1)",
+        },
         "02-Background": "#a7d7c5",
         "02-Form-Bg": "#f6fbf9",
         "02-Heading": "#212b27",
@@ -30,6 +33,7 @@ module.exports = {
         "02-Placeholder": "#000000",
         CTA: "#ffffff",
         "02-Box": "#c1e3d6",
+        "02-Button": "#84C7AE",
       },
       borderRadius: {
         none: 0,

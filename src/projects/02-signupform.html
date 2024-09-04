@@ -4,30 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/output.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body class="h-screen bg-02-Background grid font-karla">
-    <div
-      class="wrapper w-[700px] justify-self-center self-center"
-    >
-      <article class="bg-02-Form-Bg pt-[68px] pb-[82px] px-12 rounded-[50px] flex flex-col items-center text-center">
-        <header class="mb-[50px]">
-          <h1 class="text-[56px] font-bold leading-none mb-[6px]" tabindex="0">Create An Account</h1>
-          <p class="text-02-Paragraph text-[24px] w-[472px]" tabindex="0">Create an account to enjoy all the services without any ads for free!</p>
+    <div class="wrapper w-[700px] justify-self-center self-center">
+      <article
+        class="bg-02-Form-Bg pt-[68px] pb-[82px] px-12 rounded-[50px] flex flex-col items-center text-center"
+      >
+        <header class="mb-[50px] flex flex-col items-center space-y-[6px]">
+          <h1 class="text-[56px] font-bold leading-tight" tabindex="0">
+            Create An Account
+          </h1>
+          <p
+            class="text-02-Paragraph text-[24px] w-[472px] leading-tight"
+            tabindex="0"
+          >
+            Create an account to enjoy all the services without any ads for
+            free!
+          </p>
         </header>
-        <form action="">
-          <div>
-            <input class="w-full" id="input_email" type="email" placeholder="Email Address" />
-            <label class="sr-only" for="input_email">Enter your email</label>
-            <input class="w-full" id="input_password" type="password" placeholder="Password" />
-            <label class="sr-only" for="input_password">Enter your password</label>
+        <form class="w-full" action="">
+          <div class="space-y-[22px] mb-8">
+            <div class="relative">
+              <input
+                class="w-full ring-2 ring-grayscale-100 rounded-[15px] p-[32px] text-[22px] focus:outline-none focus:ring-2 focus:ring-02-Button focus:shadow-md peer"
+                id="input_email"
+                type="email"
+                placeholder="Email Address"
+              />
+              <p
+                class="absolute -top-5 right-0 bg-02-Box p-2 rounded-lg opacity-0 peer-invalid:opacity-100 transition ease-in delay-500 duration-300"
+              >
+                Please provide a valid email address.
+              </p>
+              <label class="sr-only" for="input_email">Enter your email</label>
+            </div>
+            <div>
+              <input
+                class="w-full ring-2 ring-grayscale-100 rounded-[15px] p-[32px] text-[22px] focus:outline-none focus:ring-2 focus:ring-02-Button focus:shadow-md peer"
+                id="input_password"
+                type="password"
+                placeholder="Password"
+                required
+              />
+              <label class="sr-only" for="input_password"
+                >Enter your password</label
+              >
+            </div>
           </div>
-          <div class="controls">
-            <button>Create Account</button>
-            <p tabindex="0">Already Have An Account? <span tabindex="0">Sign in</span></p>
+          <div class="controls space-y-4">
+            <button
+              class="py-[22px] px-[74px] bg-02-Button rounded-[22px] text-[34px] font-bold leading-tight text-white"
+            >
+              Create Account
+            </button>
+            <p tabindex="0">
+              Already Have An Account? <span tabindex="0">Sign in</span>
+            </p>
           </div>
         </form>
       </article>
