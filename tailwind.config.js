@@ -7,6 +7,7 @@ module.exports = {
         pre: ['"Pretendard Variable", Pretendard, sans-serif'],
         suit: ["SUIT Variable", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        karla: ["Karla", "sans-serif"]
       },
       boxShadow: {
         "shadow-my": "inset 0 0 10px red",
