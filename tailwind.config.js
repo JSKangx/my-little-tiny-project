@@ -23,7 +23,7 @@ module.exports = {
           200: "#000000",
         },
         "02-Background": "#a7d7c5",
-        "02-Form Bg": "#f6fbf9",
+        "02-Form-Bg": "#f6fbf9",
         "02-Heading": "#212b27",
         "02-Paragraph": "#32403b",
         "02-Placeholder": "#000000",

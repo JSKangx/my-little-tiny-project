@@ -644,6 +644,10 @@ video {
   width: 428px;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .max-w-\[455px\] {
   max-width: 455px;
 }
@@ -737,6 +741,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-02-Form-Bg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 251 249 / var(--tw-bg-opacity));
+}
+
 .p-5 {
   padding: 1.25rem;
 }
@@ -760,8 +769,21 @@ video {
   padding-bottom: 22px;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .pt-\[45px\] {
   padding-top: 45px;
+}
+
+.pb-\[82px\] {
+  padding-bottom: 82px;
+}
+
+.pt-\[68px\] {
+  padding-top: 68px;
 }
 
 .text-center {
