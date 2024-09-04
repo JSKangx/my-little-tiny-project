@@ -12,7 +12,10 @@
     />
     <title>Document</title>
   </head>
-  <body class="h-screen bg-02-Background grid font-karla">
+  <body class="h-screen bg-02-Background grid font-karla overflow-hidden">
+    <div
+      class="size-[750px] bg-02-Box absolute top-0 left-0 -z-10 -translate-x-1/3 -translate-y-1/3 rotate-45 rounded-[160px]"
+    ></div>
     <div class="wrapper w-[700px] justify-self-center self-center">
       <article
         class="bg-02-Form-Bg pt-[68px] pb-[82px] px-12 rounded-[50px] flex flex-col items-center text-center"
@@ -64,12 +67,16 @@
             >
               Create Account
             </button>
-            <p tabindex="0">
-              Already Have An Account? <span tabindex="0">Sign in</span>
-            </p>
+            <div class="text-[22px] text-02-Paragraph leading-tight">
+              <p class="inline" tabindex="0">Already Have An Account?</p>
+              <a tabindex="0"><span class="underline">Sign in</span></a>
+            </div>
           </div>
         </form>
       </article>
     </div>
+    <div
+      class="size-[750px] bg-02-Box absolute right-0 bottom-0 -z-10 translate-x-1/3 translate-y-1/3 rotate-45 rounded-[160px]"
+    ></div>
   </body>
 </html>
