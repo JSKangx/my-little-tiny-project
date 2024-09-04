@@ -12,15 +12,18 @@
     >
       <article class="">
         <header>
-          <h1>title</h1>
-          <p>p</p>
+          <h1 tabindex="0">title</h1>
+          <p tabindex="0">p</p>
         </header>
         <form action="">
-          <input type="email" />email <input type="password" />password
+          <input id="input_email" type="email" placeholder="Email Address" />
+          <label class="sr-only" for="input_email">Enter your email</label>
+          <input id="input_password" type="password" placeholder="Password" />
+          <label class="sr-only" for="input_password">Enter your password</label>
           <div class="controls">
             <button>button</button>
-            <p>question</p>
-            <span>sign in</span>
+            <p tabindex="0">question</p>
+            <span tabindex="0">sign in</span>
           </div>
         </form>
       </article>
